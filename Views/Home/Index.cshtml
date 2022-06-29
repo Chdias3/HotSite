@@ -1,0 +1,68 @@
+﻿@model Interesse
+@{
+    ViewData["Title"] = "Hotsite";
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <div>
+            <h1>Iniciativa Saúde da Cidade</h1>
+            <p>
+                Texto sobre vida saudável: Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae
+                legendos
+                at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.
+            </p>
+            <p>
+                Texto sobre vida iniciativa: Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae
+                legendos
+                at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.
+            </p>
+        </div>
+    </div>
+
+    <div class="col-md-6"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="border border-primary rounded">
+            <h2 class="text-center">Entre em contato!:</h2>
+            <p class="text-center">Nos mande uma mensagem e fique por dentro de nossos eventos</p>
+            <p class="text-danger">@ViewData["Mensagem"]</p>
+            <form class="text-center" action="/Home/Cadastrar" method="POST">
+                <div>
+                    <label asp-for="Nome">Nome:</label>
+                    <input asp-for="Nome" required />
+                </div>
+                <div>
+                    <label asp-for="Email">Email:</label>
+                    <input asp-for="Email" required />
+                </div>
+                <div>
+                    <label asp-for="Mensagem">Mensagem (opcional):</label>
+                    <textarea asp-for="Mensagem"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar" class="btn btn-success" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="col-md-6 boxImg">
+        <img class="rounded img-fluid img-thumbnail" src="/CSS/img/istockphoto-1319764588-170667a.jpg"
+            alt="Homens e mulheres">
+        <div class="boxImg2">
+            <a href="#" type="button" data-toggle="modal" data-target="#modalAgenda" class="btn btn-primary">Agenda de
+                eventos</a>
+            <a href="#" type="button" data-toggle="modal" data-target="#modalDicas" class="btn btn-primary">Dicas de
+                vida saudável</a>
+            <a href="#" type="button" data-toggle="modal" data-target="#modalApoiadores"
+                class="btn btn-primary">Apoiadores</a>
+        </div>
+    </div>
+</div>
+
+<partial name="_ModalAgenda" />
+<partial name="_ModalDicas" />
+<partial name="_ModalApoiadores" />

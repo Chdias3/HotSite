@@ -1,0 +1,153 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+
+  background-color: #e7e7e7;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+
+/* -----------img-------------- */
+
+img.rounded {
+  margin-top: -13.5rem !important;
+}
+
+/* -----------button-------------- */
+
+div.boxImg2 {
+  margin-top: 4.5rem !important;
+}
+
+/* -----------Agenda- Modal------------- */
+
+h5.schedule{
+  margin-left: auto;
+}
+
+/* -----------Dicas de vida saudável- Modal------------- */
+h5.tips{
+  margin-left: auto;
+}
+
+/* -----------text p- Modal------------- */
+.modal-body p {
+  padding: 0rem 5rem;
+}
+
+/* -----------Apoiadores- Modal------------- */
+h5.supporters{
+  margin-left: auto;
+}
+
+
+.modal-body h6 {
+  padding: 0rem 10.5rem;
+  position: relative;
+  top: -1.5rem;
+}
+
+
+p.description {
+  padding: 0rem 10.5rem;
+  position: relative;
+  top: -2.1rem;
+  color: #747776;
+  font-size: 0.8rem;
+}
+
+
+img.img0.rounded {
+  position: relative;
+  top: 7rem;
+  left: 16%;
+}
+
+img.img2 {
+  position: relative;
+  top: 10rem;
+  left: -71.3%;
+}
+
+img.img3 {
+  position: relative;
+  top: 10rem;
+  left: -71.3%;
+}
+
+img.img4 {
+  position: relative;
+  top: 10rem;
+  left: -71.3%;
+}
+
+p.text-danger {
+  color: #dc3545!important;
+  padding: 0rem 9rem;
+}
